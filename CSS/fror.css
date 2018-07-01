@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.main-header {
+    text-align: center;
+    background-color: #35B075;
+    padding-bottom: 1em;
+}
+
+.main-header a {
+    color: azure;
+}
+
+h1 {
+    margin: 0;
+    padding: .5em 0;
+}
+
+header .row,
+footer .row {
+    align-items: center;
+}
+
+header h1 {
+    font-weight: 700;
+    margin: 0;
+}
+
+header nav p {
+    display: inline;
+    float: right;
+    align-items: center;
+    line-height: 4rem;
+}
+
+header p {
+    padding: 0 20px;
+    margin: 0;
+}
+
+.jumbotron {
+    background: url("../images/222.jpg");
+    background-size: cover;
+    
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    height: 500px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+}
+
+
+section .row img {
+    margin: 0 0 30px;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: .5em 0;
+    background-color: #35B075;
+}
+
+.col-md-6 {
+    margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+    border-radius: 2px;
+    border: 0px;
+    color: #fbd1d5;
+    text-shadow: none;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 1rem;
+
+
+}
+
+.btn.btn-primary:hover {
+    color: #ffffff;
+    background-color: #fbd1d5;
+}
+
+.btn-secondary {
+    background-color: #E8DFE0;
+    color: #ffffff;
+    margin: 0 0 30px;
+}
+
+
+
+
+#anniu {
+    padding: 20px 50px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 50px;
+    left: 400px;
+    border-radius: 30px;
+}
+
+#anniu:hover {
+    background-color: brown;
+    color: aquamarine;
+}
+
+
+
+figure p {
+    text-align: center;
+    color: crimson;
+}
+
+
+
+#btnframe {
+
+    width: 100%;
+    margin: auto;
+}
